@@ -1,0 +1,5 @@
+# Schema for the configuration files of the Societe Ordinaire theme.
+
+societe_ordinaire.settings:
+  type: theme_settings
+  label: 'Societe Ordinaire settings'

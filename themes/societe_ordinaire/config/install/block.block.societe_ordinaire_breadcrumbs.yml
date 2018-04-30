@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - societe_ordinaire
+_core:
+  default_config_hash: HewqczZRLp93kcLkmkxv6wMPQPyAPF_My9XIyqbeAvw
+id: societe_ordinaire_breadcrumbs
+theme: societe_ordinaire
+region: banner
+weight: -5
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

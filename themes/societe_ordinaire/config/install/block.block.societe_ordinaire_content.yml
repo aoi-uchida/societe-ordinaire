@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - societe_ordinaire
+_core:
+  default_config_hash: Ni_6AQqtw3rCYc-VLnnKAPPxWyVFqFVgbMdn4PyRQ88
+id: societe_ordinaire_content
+theme: societe_ordinaire
+region: content
+weight: -1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

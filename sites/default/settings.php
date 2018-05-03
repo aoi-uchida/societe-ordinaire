@@ -782,18 +782,9 @@ $settings['entity_update_batch_size'] = 50;
  * Keep this code block at the end of this file to take full effect.
  */
 #
-# if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
-#   include $app_root . '/' . $site_path . '/settings.local.php';
-# }
-$databases['default']['default'] = array (
-  'database' => 'societe_ordinaire',
-  'username' => 'societe',
-  'password' => 'eteete56',
-  'prefix' => '',
-  'host' => 'mysql715.db.sakura.ne.jp',
-  'port' => '3306',
-  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
-  'driver' => 'mysql',
-);
+if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
+  include $app_root . '/' . $site_path . '/settings.local.php';
+}
+
 $settings['install_profile'] = 'standard';
 $config_directories['sync'] = 'sites/default/files/config_7R08gk8SbPRKtCSlrZPEqPc9vZmfVuAGBvPP676SKSH-RlCZ5tddaKiGJ8cW6nuKMH7HvfO0OA/sync';

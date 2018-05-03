@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - societe_ordinaire
+_core:
+  default_config_hash: VStO8y6zdIUsByV5ILgeKmduBF0Rlfe0IiJqZeDu7hA
+id: societe_ordinaire_search
+theme: societe_ordinaire
+region: sidebar_second
+weight: -6
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }

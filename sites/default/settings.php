@@ -785,5 +785,6 @@ $settings['entity_update_batch_size'] = 50;
 if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
   include $app_root . '/' . $site_path . '/settings.local.php';
 }
+
 $settings['install_profile'] = 'standard';
 $config_directories['sync'] = 'sites/default/files/config_7R08gk8SbPRKtCSlrZPEqPc9vZmfVuAGBvPP676SKSH-RlCZ5tddaKiGJ8cW6nuKMH7HvfO0OA/sync';

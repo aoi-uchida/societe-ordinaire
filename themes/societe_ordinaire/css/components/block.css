@@ -44,9 +44,13 @@
 }
 .block .block {
   padding: 0;
+  padding-bottom: 80px;
 }
 .region .block:last-child {
   padding-bottom: 0;
+}
+.block .block h2 {
+  margin-bottom: 50px;
 }
 .region--no-block-paddings .block,
 .region--no-block-paddings .block + .block {

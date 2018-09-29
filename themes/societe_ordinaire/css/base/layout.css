@@ -11,7 +11,7 @@
   background-color: #f4f4f4;
 }
 .region--yellow-background {
-  background-color: #ffe030;
+  background-color: rgb(255, 214, 48);
 }
 .region--black-background {
   background-color: #1d1d1d;
@@ -102,7 +102,7 @@
 }
 .main-content__section,
 .sidebar__section {
-  padding: 140px 0 130px;
+  padding: 30px 0 130px;
 }
 @media (max-width: 991px) {
   .sidebar__section {
@@ -255,7 +255,7 @@
   background: linear-gradient(to bottom right, #1d1d1d 49.5%, transparent 50%);
 }
 .region--yellow-background + .region--separator-incline-diagonal:before {
-  background: linear-gradient(to bottom right, #ffe030 49.5%, transparent 50%);
+  background: linear-gradient(to bottom right, rgb(255, 214, 48) 49.5%, transparent 50%);
 }
 .region--white-background + .region--white-background.region--separator-incline-diagonal:before,
 .region--gray-background + .region--gray-background.region--separator-incline-diagonal:before,
@@ -298,7 +298,7 @@
   background: linear-gradient(to bottom left, #1d1d1d 49.5%, transparent 50%);
 }
 .region--yellow-background + .region--separator-decline-diagonal:before {
-  background: linear-gradient(to bottom left, #ffe030 49.5%, transparent 50%);
+  background: linear-gradient(to bottom left, rgb(255, 214, 48) 49.5%, transparent 50%);
 }
 .region--white-background + .region--white-background.region--separator-decline-diagonal:before,
 .region--gray-background + .region--gray-background.region--separator-decline-diagonal:before,
@@ -476,14 +476,7 @@
 
 /*Bordered page container */
 .page-container-border-enabled .page-container {
-  border-width: 10px;
-  border-style: solid;
   overflow: hidden;
-}
-.page-container-border-enabled .page-container > div,
-.page-container-border-enabled .page-container > .footer {
-  margin-left: -10px;
-  margin-right: -10px;
 }
 .page-container-border-enabled .page-container > .js-transparent-header,
 .page-container-border-enabled .container-fluid .grid-gutter-10,
@@ -493,14 +486,6 @@
   margin-right: 0;
 }
 @media (min-width: 992px) {
-  .page-container-border-enabled .page-container {
-    border-width: 15px;
-  }
-  .page-container-border-enabled .page-container > div,
-  .page-container-border-enabled .page-container > .footer {
-    margin-left: -15px;
-    margin-right: -15px;
-  }
   .page-container-border-enabled .page-container > .js-transparent-header,
   .page-container-border-enabled .container-fluid .grid-gutter-10,
   .page-container-border-enabled .container-fluid .grid-gutter-5,

@@ -284,7 +284,7 @@ a.button.button--hover-style-2:before,
 
 /* components: layout switcher */
 .layout-switcher ul li a {
-  color: #505050;
+  color: #050072;
 }
 .layout-switcher ul li.active a {
   color: #373737;
@@ -294,10 +294,10 @@ a.button.button--hover-style-2:before,
 .header-container ul.menu li a:hover,
 .header-container ul.menu li a.is-active,
 .header-container ul.menu li.active-trail > a {
-  color: #505050;
+  color: #050072;
 }
 .header-container .sf-menu li.sfHover > a {
-  color: #505050;
+  color: #050072;
 }
 .region--colored-background .sf-menu.menu ul {
   background-color: #505050;

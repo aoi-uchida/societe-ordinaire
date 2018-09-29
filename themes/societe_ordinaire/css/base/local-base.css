@@ -7,3 +7,21 @@
 /*body {
   font-weight: 300;
 }*/
+
+/* Footer */
+.subfooter.region--light-typography {
+  background-color: #AAAAAA;
+}
+
+/* ul */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.view-display-id-top_text1 {
+  background-image: url(../../images/top_img_1.png);
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: right;
+}

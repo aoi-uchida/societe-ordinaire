@@ -21,10 +21,10 @@
 }
 .onscroll .header.js-fixed.region--gray-background {
   /* background-color: rgba(244, 244, 244, 0.95); */
-  background-color: rgba(255, 224, 48, 0.95);
+  background-color: rgba(255, 214, 48, 0.95);
 }
 .onscroll .header.js-fixed.region--yellow-background {
-  background-color: rgba(255, 224, 48, 0.95);
+  background-color: rgba(255, 214, 48, 0.95);
 }
 .fixed-header-enabled.onscroll .header__container,
 .fixed-header-enabled.onscroll .header-second,

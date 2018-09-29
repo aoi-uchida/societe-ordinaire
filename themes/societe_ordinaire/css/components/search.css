@@ -28,7 +28,7 @@
   line-height: 46px;
   width: 20px;
   display: block;
-  color: #9c9c9c;
+  color: #050072;
 }
 .block-search input.form-submit {
   background-color: transparent;
@@ -116,4 +116,8 @@
 /*Navigation search bar*/
 .header__section .block-search {
   padding-top: 8px;
+}
+
+div#block-societe-ordinaire-search.search-block-form {
+  padding-top: 5px;
 }

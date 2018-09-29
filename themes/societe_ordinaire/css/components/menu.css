@@ -109,6 +109,19 @@ ul.menu li > a:before {
   }
 }
 
+/*header menu - reservation */
+.header-container ul.menu li:last-child {
+  background-color: #050072;
+  border-radius: 20px;
+}
+.header-container ul.menu li:last-child a {
+  color: #FFF;
+  font-weight: bold;
+}
+.header-container ul.menu li:last-child a:hover {
+  color: #ffe030;
+}
+
 /*header top*/
 .header-top__section ul.menu {
   text-align: center;
